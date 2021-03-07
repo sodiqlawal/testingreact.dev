@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import React, { FunctionComponent, ChangeEvent } from 'react'
 
-interface CheckboxPropsInterface {
+export interface CheckboxPropsInterface {
   label: string
   id: string
   checked?: boolean
